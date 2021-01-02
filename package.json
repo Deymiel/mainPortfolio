@@ -1,0 +1,23 @@
+{
+  "name": "mainPortfolio",
+  "version": "1.0.0",
+  "description": "This project is a new version of my existing portfolio project before",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "homepage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Deymiel/mainPortfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Deymiel/mainPortfolio/issues"
+  },
+  "homepage": "https://github.com/Deymiel/mainPortfolio/index.html",
+  "dependencies": {
+    "homepage": "^1.0.0"
+  }
+}
