@@ -1,0 +1,292 @@
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1300px;
+  }
+}
+
+@media (max-width: 1650px) {
+  .hero-section .hero-caption h1 {
+    font-size: 80px;
+  }
+  .hero-section .hero-caption p {
+    font-size: 25px;
+  }
+  .btn-secondary {
+    font-size: 18px;
+  }
+  .btn-primary {
+    font-size: 18px;
+  }
+  .btn-teritiary {
+    font-size: 18px;
+  }
+  .technical_skill ul.owl-carousel .owl-nav .owl-prev {
+    margin-left: -1%;
+  }
+  .technical_skill ul.owl-carousel .owl-nav .owl-next {
+    margin-right: -1%;
+  }
+  .technical_skill ul li .skill_card img {
+    height: 140px;
+  }
+}
+
+@media (max-width: 1440px) {
+  .container {
+    padding: 0 25px !important;
+    max-width: 1100px;
+  }
+  .technical_skill ul.owl-carousel .owl-nav .owl-prev {
+    margin-left: 0%;
+  }
+  .technical_skill ul.owl-carousel .owl-nav .owl-next {
+    margin-right: 0%;
+  }
+  .hero-section .hero-caption p {
+    font-size: 20px;
+  }
+  .hero-section .hero-caption h1 {
+    font-size: 60px;
+  }
+  header .navbar .navbar-brand img {
+    max-width: 100px;
+  }
+  header .navbar .navbar-nav li a {
+    font-size: 16px;
+  }
+  .about_us_section .profile_cont:after {
+    right: 0;
+  }
+  .technical_skill ul li .skill_card img {
+    height: 120px;
+  }
+  .technical_skill ul li .skill_card {
+    min-height: 300px;
+  }
+  .technical_skill ul.owl-carousel .owl-nav {
+    top: 35%;
+  }
+  .contact-section .my-info .row-info h2 {
+    font-size: 14px;
+  }
+  .contact-section .my-info .row-info h1 {
+    font-size: 14px;
+  }
+  .contact-section .my-info .row-info p, .contact-section .my-info .row-info a {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 991px) {
+  header .navbar-brand img {
+    max-width: 100px;
+  }
+  header .navbar .navbar-nav li {
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
+  header .navbar-nav {
+    margin-top: 30px;
+  }
+  .hero-section .hero-caption h1 {
+    font-size: 50px;
+  }
+  .hero-section .hero-caption p {
+    font-size: 16px;
+  }
+  .btn-secondary, .btn-primary, .btn-teritiary {
+    font-size: 14px;
+    height: 50px;
+    width: 170px;
+  }
+  .hero-section .hero-caption .hero-buttons {
+    margin-top: 30px;
+  }
+  .about_us_section .profile_cont {
+    margin-bottom: 80px;
+  }
+  .about_us_section .profile_cont:after {
+    right: 0;
+    left: 0;
+    width: 100%;
+    bottom: 0;
+    top: 0;
+    height: 480px;
+    max-width: 450px;
+    margin: auto;
+    border: 10px solid #15191b;
+  }
+  .mobile-first {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+  .mobile-last {
+    -webkit-box-ordinal-group: 13;
+        -ms-flex-order: 12;
+            order: 12;
+  }
+  .contact-section .my-info {
+    margin-top: 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  .technical_skill ul.owl-carousel .owl-nav .owl-prev, .technical_skill ul.owl-carousel .owl-nav .owl-next {
+    height: 50px;
+    width: 50px;
+    border-width: 2px;
+  }
+  .technical_skill ul.owl-carousel .owl-nav .owl-prev i, .technical_skill ul.owl-carousel .owl-nav .owl-next i {
+    font-size: 20px;
+  }
+  .projects_section .filter-group ul.list-filter {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .projects_section .filter-group ul.list-filter > li {
+    margin: 0 10px 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  .contact-section .my-info .row-info h1 {
+    margin-bottom: 15px;
+  }
+  .contact-section .my-info .row-info h2 {
+    margin-bottom: 15px;
+  }
+}
+
+@media (max-width: 625px) {
+  header .navbar-nav {
+    margin-top: 20px;
+  }
+  .hero-section {
+    min-height: 65vh;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    padding: 100px 0;
+  }
+  .technical_skill ul.owl-carousel .owl-nav {
+    display: none;
+  }
+  .projects_section .filter-group ul.list-filter > li > a {
+    width: 150px;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 575px) {
+  header .navbar-brand img {
+    max-width: 80px;
+  }
+  .technical_skill ul {
+    padding: 0 80px 50px;
+  }
+  .common_header h1 {
+    font-size: 40px;
+  }
+  .common_header p {
+    font-size: 16px;
+  }
+  .about_us_section .about_me h1 {
+    font-size: 40px;
+  }
+  .about_us_section .about_me p {
+    font-size: 16px;
+  }
+  .projects_section .projects .card-group .card {
+    padding: 0 0;
+  }
+  .projects_section .projects .card-group .card .body-card .project-logo {
+    height: 150px;
+  }
+  .hero-section .hero-caption {
+    text-align: center;
+  }
+  .hero-section .hero-caption .hero-buttons {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+@media (max-width: 490px) {
+  .about_us_section .profile_cont {
+    margin-bottom: 80px;
+    padding: 0 35px;
+  }
+  .about_us_section .profile_cont .my_img img {
+    width: 100%;
+  }
+  .about_us_section .profile_cont .my_img {
+    width: 100%;
+    height: 350px;
+  }
+  .about_us_section .profile_cont:after {
+    height: 420px;
+  }
+  .technical_skill ul li .skill_card h2 {
+    font-size: 18px;
+    text-align: center;
+  }
+  .technical_skill ul li .skill_card {
+    min-height: 250px;
+    padding: 10px;
+  }
+  .projects_section .projects .card-group .card .body-card .project-img {
+    height: 350px;
+  }
+  .projects_section .projects .card-group .card {
+    margin-bottom: 25px;
+  }
+  .hero-section {
+    min-height: 85vh;
+  }
+  .hero-section .hero-caption .hero-buttons {
+    margin-top: 30px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+  }
+  .btn-secondary, .btn-primary {
+    margin-bottom: 15px;
+  }
+}
+
+@media (max-width: 425px) {
+  .technical_skill ul {
+    padding: 0 0px 50px;
+  }
+}
+
+@media (max-width: 375px) {
+  .technical_skill ul.owl-carousel .owl-dots .owl-dot {
+    width: 10px;
+    height: 10px;
+    margin: 0 4px;
+  }
+  .projects_section .projects .card-group .card .body-card .project-logo {
+    height: 100px;
+  }
+}
+
+@media (max-width: 320px) {
+  .projects_section .projects .card-group .card .body-card .project-img {
+    height: 250px;
+  }
+  .hero-section .hero-caption h1 {
+    font-size: 40px;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */
