@@ -173,3 +173,10 @@ $(window).scroll(function(){
    .parent().removeClass("active")
    .end().filter("[href='#"+id+"']").parent().addClass("active");
 });
+
+
+// for image pop up 
+lightbox.option({
+  'resizeDuration': 200,
+  'wrapAround': true
+});
