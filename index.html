@@ -308,36 +308,47 @@
                             </div>
                         </div>
                         <div class="col-md-12 col-lg-6 mobile-first">
-                            <div class="my-form">
+                            <form class="my-form" action ="POST" data-netlify ="true">
                                 <div class="row">
                                     <div class="col-md-12 col-lg-6 col-form">
                                         <div class="form-group">
                                             <h1>First Name</h1>
-                                            <input type="text" placeholder="First name..">
+                                            <input type="text" placeholder="First name.." name="firstname">
                                         </div>
                                     </div>
                                     <div class="col-md-12 col-lg-6 col-form">
                                         <div class="form-group">
                                             <h1>Last Name</h1>
-                                            <input type="text" placeholder="Last name..">
+                                            <input type="text" placeholder="Last name.." name ="lastname">
                                         </div>
                                     </div>
                                     <div class="col-md-12 col-form">
                                         <div class="form-group">
                                             <h1>Phone</h1>
-                                            <input type="tel" placeholder="Phone..">
+                                            <input type="tel" placeholder="Phone.." name ="phone">
                                         </div>
                                     </div>
                                     <div class="col-md-12 col-form">
                                         <div class="form-group">
                                             <h1>Email</h1>
-                                            <input type="tel" placeholder="Email...">
+                                            <input type="tel" placeholder="Email..." name ="email">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12 col-form">
+                                        <div class="form-group">
+                                            <h1>Subject</h1>
+                                            <input type="text" placeholder="Phone.." name ="subject">
                                         </div>
                                     </div>
                                     <div class="col-md-12 col-form">
                                         <div class="form-group">
                                             <h1>Message</h1>
-                                            <textarea placeholder="Message here"></textarea>
+                                            <textarea placeholder="Message here" name ="message"></textarea>
+                                        </div>
+                                    </div>
+                                     <div class="col-md-12 col-form">
+                                        <div class="form-group">
+                                           <div data-netlify-recaptcha ="true"></div>
                                         </div>
                                     </div>
                                      <div class="col-md-12 col-form">
@@ -346,7 +357,7 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </form>
                         </div>
                     </div>
                 </div>
