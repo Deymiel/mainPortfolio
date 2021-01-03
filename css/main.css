@@ -733,6 +733,11 @@ header .navbar .navbar-nav li a {
   color: #15191b;
 }
 
+.projects_section .projects .card-group .card .body-card .overlay-content a:hover {
+  color: #fff;
+  background: #15191b;
+}
+
 .contact-section {
   background-color: #15191b;
   padding: 100px 0;

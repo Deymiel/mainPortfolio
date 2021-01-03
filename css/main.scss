@@ -612,6 +612,10 @@ header{
               font-size: 18px;
               font-weight: 500;
               color: #15191b;
+              &:hover{
+                color: #fff;
+                background: #15191b;
+              }
             }
           }
         }
