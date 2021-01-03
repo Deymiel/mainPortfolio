@@ -163,10 +163,10 @@
     margin-top: 20px;
   }
   .hero-section {
-    min-height: 65vh;
-    -webkit-box-align: end;
-        -ms-flex-align: end;
-            align-items: flex-end;
+    min-height: 100vh;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     padding: 100px 0;
   }
   .technical_skill ul.owl-carousel .owl-nav {
@@ -243,7 +243,7 @@
     margin-bottom: 25px;
   }
   .hero-section {
-    min-height: 85vh;
+    min-height: 100vh;
   }
   .hero-section .hero-caption .hero-buttons {
     margin-top: 30px;
