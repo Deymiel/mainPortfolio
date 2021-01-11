@@ -245,7 +245,12 @@ body{
     }
   }
 }
-
+#site-header {
+  transition: all 0.3s ease;
+}
+#site-header.hide {
+  top: -200px;
+}
 header{
   position: fixed;
   width: 100%;

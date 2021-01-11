@@ -24,7 +24,7 @@
 	</head>
 	<body>
         <!-- header section -->
-        <header class ="main_header_bg">
+        <header class ="main_header_bg" id ="site-header">
             <div class ="navbar-container" id ="navbar">
                  <nav class="navbar navbar-expand-lg container main_nav">
                     <a class="navbar-brand" href="#home">
@@ -62,7 +62,7 @@
                     <div class="row">
                         <div class="col-md-8">
                             <div class="hero-caption">
-                                <h1>Hi! i'm Melvin</h1>
+                                <h1><span id="typed"></span></h1>
                                 <p>A Front End Web Developer</p>
                                 <div class="hero-buttons d-flex rel">
                                     <a class ="btn-secondary" href="javascript:void(0)">Download CV</a>
@@ -79,9 +79,9 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12 col-lg-6 rel">
-                            <div class="profile_cont rel">
+                            <div class="profile_cont rel wow bounceInDown">
                                 <div class="my_img rel">
-                                    <img src="images/my-img.jpg" alt="melvin">
+                                    <img src="images/my-img.jpg" alt="melvin" class ="">
                                 </div>
                             </div>
                         </div>
@@ -197,7 +197,7 @@
                         </ul>
                         <div class="projects">
                             <div class="row no-gutters card-group">
-                                <div class="col-md-12 col-lg-6 development item">
+                                <div class="col-md-12 col-lg-6 development item project-reveal">
                                     <div class="card">
                                         <div class="body-card">
                                             <img class = "project-img" src="images/projects/project-image-1.jpg" alt="">
@@ -211,7 +211,7 @@
                                     </div>
                                 </div>
     
-                                <div class="col-md-12 col-lg-6 development item">
+                                <div class="col-md-12 col-lg-6 development item project-reveal">
                                     <div class="card">
                                         <div class="body-card">
                                             <img class = "project-img" src="images/projects/project-image-2.jpg" alt="">
@@ -225,7 +225,7 @@
                                     </div>
                                 </div>
 
-                                 <div class="col-md-12 col-lg-6 design item">
+                                 <div class="col-md-12 col-lg-6 design item project-reveal">
                                     <div class="card">
                                         <div class="body-card">
                                             <img class = "project-img" src="images/projects/project-design-1.png" alt="">
@@ -307,7 +307,7 @@
                                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3861.361502643008!2d121.18929421463302!3d14.578465281527617!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c0a067518a3d%3A0xf3cae06a21fd9665!2sCelery%20St%2C%20Antipolo%2C%201870%20Rizal!5e0!3m2!1sen!2sph!4v1609428974030!5m2!1sen!2sph" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
                             </div>
                         </div>
-                        <div class="col-md-12 col-lg-6 mobile-first">
+                        <div class="col-md-12 col-lg-6 mobile-first wow bounceInDown">
                             <form class="my-form" action ="POST" data-netlify ="true">
                                 <div class="row">
                                     <div class="col-md-12 col-lg-6 col-form">
@@ -364,18 +364,31 @@
             </section>
         </main>
         <footer>
-            <p>All Right Reserved 2020</p>
+            <p>All Right Reserved 2021</p>
         </footer>
   
-		<script src="js/jquery-v3.3.1.min.js"></script>
+        <!-- <script src="js/jquery-v3.3.1.min.js"></script> -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
 		<script src="js/bootstrap.min.js"></script>
 		<script src="js/owl.carousel.min.js"></script>
         <script src="js/jquery.matchHeight.js"></script>
         <script src="js/isotope.min.js"></script>
+        <script src ="js/typed.min.js"></script>
         <script src="js/lightbox.js"></script>
+        <script src="js/scrollreveal.js"></script>
+        <script src="js/wow.min.js"></script>
         <script src="js/main.js"></script>
         <script type="text/javascript">
-
+            $(document).ready(function () {
+                var typed = new Typed('#typed', {
+                    strings: ["Hi! i'm Melvin"],
+                    startDelay: 500,
+                    backSpeed: 50,
+                    typeSpeed: 50,
+                    backDelay: 4000,
+                    loop: true,
+                });
+            });
 		</script>
 	</body>
 </html>

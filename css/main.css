@@ -279,6 +279,15 @@ body {
           transform: translateY(-6px) rotate(225deg);
 }
 
+#site-header {
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+#site-header.hide {
+  top: -200px;
+}
+
 header {
   position: fixed;
   width: 100%;
